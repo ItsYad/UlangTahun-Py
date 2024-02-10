@@ -101,7 +101,7 @@ def tulis(pesan, pos):
     x,y=pos
     pen.penup()
     pen.goto(x,y)
-    pen.color('red')
+    pen.color('blue')
     style=('Stencil Std', ukuranfont, 'italic')
     pen.write(pesan, font=style)
     
@@ -140,5 +140,5 @@ time.sleep(0.1)
 tulis('Y',(100,95))
 time.sleep(0.1)
 pesan('''AYANGGG)
-I Hope U always HAPPy,''',(-68,40))
+I Hope U always HAPPY,''',(-68,40))
 time.sleep(5)
